@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="app.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Translate English to French</title>
+  </head>
+
+  <body class="body">
+    <h2 class="h2">i-translate</h2>
+    <img id="lgbt" src="LgbtFlag.png" />
+
+    <button class="bt btn-success" id="start">
+      Hold to record <i class="fa fa-microphone" aria-hidden="true"></i>
+    </button>
+    <button class="bt btn-danger" id="speak">
+      Audio <i class="fa fa-volume-up" aria-hidden="true"></i>
+    </button>
+
+    <button class="bt switch">
+      <a href="page2.html">
+        English
+        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        French
+      </a>
+    </button>
+    <br />
+
+    <br />
+
+    <div>
+      <label for="english">English</label>
+      <span name="english" id="final" class="text"></span>
+      <br />
+
+      <label for="Interim">French</label>
+      <span id="interim" class="text"></span>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
+</html>
